@@ -14,3 +14,10 @@ This is miniproject made for tokopedia assignment
 # Hosted 
 hosted on my personal hosting website.
 Open [https://pokedex-haikal.sarafdesign.com](https://pokedex-haikal.sarafdesign.com) 
+
+# Screenshot pages
+
+1. Landing page
+![This is an image](https://github.com/GagaPoloJr/landing.png)
+
+
