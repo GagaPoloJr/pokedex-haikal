@@ -18,6 +18,11 @@ Open [https://pokedex-haikal.sarafdesign.com](https://pokedex-haikal.sarafdesign
 # Screenshot pages
 
 1. Landing page
-![This is an image](https://github.com/GagaPoloJr/pokedex-haikal/blob/master/landing.png)
+
+<tr>
+  <td>
+    <img src="https://github.com/GagaPoloJr/pokedex-haikal/blob/master/landing.png" />
+  </td> 
+ </tr>
 
 
