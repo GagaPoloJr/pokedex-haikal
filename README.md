@@ -1,3 +1,3 @@
 #Hosted 
 
-Open [https://pokedex-haikal.sarafdesign.com](Pokedex Haikal) 
+Open [https://pokedex-haikal.sarafdesign.com](https://pokedex-haikal.sarafdesign.com) 
