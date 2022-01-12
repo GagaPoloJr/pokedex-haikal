@@ -10,6 +10,8 @@ This is miniproject made for tokopedia assignment
 | GraphQl | 
 | Tailwind CSS | 
 | CSS-in-Js Emotion |
+| Apollo Client |
+| Local storage browser |
 
 # Hosted 
 hosted on my personal hosting website.
