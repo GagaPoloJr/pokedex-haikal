@@ -18,7 +18,7 @@ Open [https://pokedex-haikal.sarafdesign.com](https://pokedex-haikal.sarafdesign
 # Screenshot pages
 
 
-<tr>
+<tr style="text-align:center">
   <td>
     1. Landing page
   </td>
