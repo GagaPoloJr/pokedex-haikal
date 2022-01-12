@@ -17,11 +17,31 @@ Open [https://pokedex-haikal.sarafdesign.com](https://pokedex-haikal.sarafdesign
 
 # Screenshot pages
 
-1. Landing page
 
 <tr>
   <td>
-    <img src="https://github.com/GagaPoloJr/pokedex-haikal/blob/master/landing.png" />
+    1. Landing page
+  </td>
+  <td>
+    <img width="50%" src="https://github.com/GagaPoloJr/pokedex-haikal/blob/master/landing.png" />
+  </td> 
+   <td>
+    2. Pokedex page
+  </td>
+  <td>
+    <img width="50%" src="https://github.com/GagaPoloJr/pokedex-haikal/blob/master/listpokemon.png" />
+  </td> 
+   <td>
+    3. Detail pokemon page
+  </td>
+  <td>
+    <img width="50%" src="https://github.com/GagaPoloJr/pokedex-haikal/blob/master/detail.png" />
+  </td> 
+   <td>
+    4. My Pokemon page
+  </td>
+  <td>
+    <img width="50%" src="https://github.com/GagaPoloJr/pokedex-haikal/blob/master/mypokemon.png" />
   </td> 
  </tr>
 
