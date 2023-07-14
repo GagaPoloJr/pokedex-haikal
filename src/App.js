@@ -1,40 +1,21 @@
-import React from "react";
-import "./App.css";
-import { Route, Switch } from "react-router-dom";
-import Main from "./pages/main";
-import DetailPokemon from "./pages/detailPokemon";
-import Welcome from "./pages/welcome";
-import styled from "@emotion/styled";
-import { PokemonProvider } from "./pages/components/PokemonContext";
-import MypokemonList from "./pages/myPokemonList";
-
-
-const MobileContainer = styled.div`
-width: 414px;
-min-height:100vh;
-height:100%;
-border: 1px solid #ccc;
-background: #2C3353;
-position: relative;
-`;
-
-const Container = styled.div`
-  display: flex;
-  height: 100%;
-  justify-content: center;
-  align-items: center;
-}
-`
-
+import React from 'react';
+import './App.css';
+import { Route, Switch } from 'react-router-dom';
+import Main from './pages/main';
+import DetailPokemon from './pages/detailPokemon';
+import Welcome from './pages/Welcome';
+import { PokemonProvider } from './pages/components/PokemonContext';
+import MypokemonList from './pages/myPokemonList';
+import { MobileContainer, Container } from './style-components/layouts';
 
 const App = () => {
   return (
     <>
       <Container>
-        <MobileContainer >
+        <MobileContainer>
           <Switch>
             <PokemonProvider>
-            <Route exact path="/my-pokemon">
+              <Route exact path="/my-pokemon">
                 <MypokemonList />
               </Route>
               <Route exact path="/pokemon">
