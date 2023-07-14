@@ -1,6 +1,6 @@
-# Project assigment - Software Engineer (Web Platform)
+# Project assigment 
 
-This is miniproject made for tokopedia assignment
+
 
 # Techstack
 
@@ -15,7 +15,7 @@ This is miniproject made for tokopedia assignment
 
 # Hosted 
 hosted on my personal hosting website.
-Open [https://pokedex-haikal.sarafdesign.com](https://pokedex-haikal.sarafdesign.com) 
+Open 
 
 # Screenshot pages
 
