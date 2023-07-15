@@ -1,24 +1,21 @@
-# Project assigment 
-
-
+<!-- # Project assigment  -->
 
 # Techstack
 
-| library  |
-| ------------- | 
-| React Js (react Hooks and React Context) | 
-| GraphQl | 
-| Tailwind CSS | 
-| CSS-in-Js Emotion |
-| Apollo Client |
-| Local storage browser |
+| library                                  |
+| ---------------------------------------- |
+| React Js (react Hooks and React Context) |
+| GraphQl                                  |
+| Tailwind CSS                             |
+| CSS-in-Js Emotion                        |
+| Apollo Client                            |
 
-# Hosted 
+# Hosted
+
 hosted on my personal hosting website.
-Open 
+Open
 
 # Screenshot pages
-
 
 <tr style="text-align:center">
   <td>
@@ -46,5 +43,3 @@ Open
     <img width="30%" src="https://github.com/GagaPoloJr/pokedex-haikal/blob/master/my pokemon.png" />
   </td> 
  </tr>
-
-
