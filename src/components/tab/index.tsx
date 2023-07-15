@@ -6,7 +6,7 @@ import TabsComponent from './tabsDetail';
 import Pokemon from '../../models/Pokemon';
 
 interface TabDescriptionProps {
-  pokemon: Pokemon; // Update with the appropriate type
+  pokemon: Pokemon;
 }
 
 const TabDetailDescription = ({ pokemon }: TabDescriptionProps) => {

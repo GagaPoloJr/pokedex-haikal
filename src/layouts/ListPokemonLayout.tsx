@@ -1,5 +1,5 @@
 import { useQuery } from '@apollo/client';
-import React, { useContext, useState } from 'react';
+import React, { useState } from 'react';
 import { GET_POKEMONS } from '../graphql/query';
 import ListPokemonCards from '../components/cards/ListPokemonCards';
 import Pokemon from '../models/Pokemon';
@@ -42,7 +42,7 @@ const ListPokemonLayout = () => {
     <>
       <CardContainer>
         {pokemon.results.map((pokemon: Pokemon) => (
-          <ListPokemonCards key={pokemon.name} pokemon={pokemon} />
+          <ListPokemonCards id={pokemon.id} key={pokemon.id} name={pokemon.name} />
         ))}
       </CardContainer>
       <Pagination>

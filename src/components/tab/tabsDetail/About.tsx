@@ -1,7 +1,12 @@
 import React from 'react';
 
 import DetailProps from './interface/DetailProps';
-import { ColorFont, HeadingAbout, HeadingDesc, SubHeading } from '../../../style-components/tabs';
+import {
+  ColorFont,
+  HeadingAbout,
+  HeadingDesc,
+  SubHeading,
+} from '../../../style-components/tabs/index.style';
 import HeldItems from '../../../models/HeldItems';
 
 const TabsDetailAbout = ({ indexTab, pokemon }: DetailProps) => {

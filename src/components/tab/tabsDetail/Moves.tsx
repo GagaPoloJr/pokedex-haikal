@@ -1,5 +1,5 @@
 import React from 'react';
-import { BadgeAbility } from '../../../style-components/tabs';
+import { BadgeAbility } from '../../../style-components/tabs/index.style';
 
 import DetailProps from './interface/DetailProps';
 import Moves from '../../../models/Moves';

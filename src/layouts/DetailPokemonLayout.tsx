@@ -1,9 +1,9 @@
 import React, { useContext, useState } from 'react';
-import Pokeball from '../img/pokeball.png';
 import { useQuery } from '@apollo/client';
 import swal from '@sweetalert/with-react';
 import { PokemonColorType } from '../helpers/colorType';
 
+import { Pokeball } from '../helpers/images';
 import {
   BgColor,
   Title,
@@ -22,6 +22,7 @@ import { FavContext } from '../context/FavContext';
 import { SPRITE_IMG_URL } from '../configs/config';
 import { capturePokemon } from '../helpers/capturePokemon';
 import Pokemon from '../models/Pokemon';
+import BackButton from '../components/buttons/Back';
 
 const DetailPokemonLayout = ({ params }: any) => {
   const { data, loading, error } = useQuery(GET_POKEMON_DETAIL, {
@@ -50,6 +51,8 @@ const DetailPokemonLayout = ({ params }: any) => {
           handleColorType={() => PokemonColorType(item.type.name, 'background')}
         >
           <div className="p-10">
+            <BackButton />
+
             <div className="flex justify-between items-center">
               <div>
                 <Title>{pokemon.name}</Title>

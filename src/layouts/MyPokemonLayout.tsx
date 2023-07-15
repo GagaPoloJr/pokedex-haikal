@@ -1,10 +1,10 @@
 import React from 'react';
 import styled from '@emotion/styled';
 import { Link } from 'react-router-dom';
-import Pokeball from '../img/pokeball.png';
 import MyPokemonProps from '../models/MyPokemon';
 import Pokemon from '../models/Pokemon';
 import MyPokemonCards from '../components/cards/MyPokemonCards';
+import { Pokeball } from '../helpers/images';
 const CardContainer = styled.div`
   margin-top: 75px;
   display: flex;

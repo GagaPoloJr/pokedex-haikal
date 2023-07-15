@@ -3,6 +3,7 @@ import React, { useContext } from 'react';
 import Hero from '../layouts/header';
 import MyPokemonLayout from '../layouts/MyPokemonLayout';
 import { FavContext } from '../context/FavContext';
+import BackButton from '../components/buttons/Back';
 
 const MypokemonList = () => {
   const { pokemons: myPokemon, deleteFavPokemon } = useContext(FavContext);
@@ -15,13 +16,17 @@ const MypokemonList = () => {
       icon: 'warning',
     });
   };
-  const titleHeader = 'My Pokedex';
-  const descHeader =
-    'For each group of Pokémon presented to you, press the "Release" button to let your pokemon go';
+
+  const header = {
+    title: 'My Pokedex',
+    desc: 'For each group of Pokémon presented to you, press the "Release" button to let your pokemon go',
+  };
+
   return (
     <>
       <div className="m-5">
-        <Hero title={titleHeader} desc={descHeader} />
+        <BackButton />
+        <Hero title={header.title} desc={header.desc} />
         <MyPokemonLayout pokemon={myPokemon} onRemove={handleRelease} />
       </div>
     </>

@@ -1,6 +1,5 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import Pokeball from '../../img/pokeball.png';
 import {
   Card,
   Title,
@@ -11,6 +10,7 @@ import {
 
 import { SPRITE_IMG_URL } from '../../configs/config';
 import MyPokemonProps from '../../models/MyPokemon';
+import { Pokeball } from '../../helpers/images';
 
 const MyPokemonCards = ({ pokemon, onRemove }: MyPokemonProps) => {
   const handleClick = () => {

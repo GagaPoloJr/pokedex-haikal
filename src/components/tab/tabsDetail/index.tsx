@@ -3,10 +3,11 @@ import TabsDetailStats from './Stats';
 import TabsDetailMoves from './Moves';
 import TabsDetailAbilities from './Abilities';
 import TabsDetailAbout from './About';
+import Pokemon from '../../../models/Pokemon';
 
 interface TabsComponentProps {
   openTab: number;
-  pokemon: any; // Update with the appropriate type
+  pokemon: Pokemon;
 }
 
 const TabsComponent = ({ openTab, pokemon }: TabsComponentProps) => {

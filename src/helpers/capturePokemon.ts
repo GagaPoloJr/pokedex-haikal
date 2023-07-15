@@ -1,11 +1,6 @@
 import uuid from 'react-native-uuid';
 import Pokemon from '../models/Pokemon';
 
-type SwalButton = {
-  text: string;
-  value: string;
-};
-
 type capturePokemonProps = {
   pokemon: Pokemon;
   setRateChance: React.Dispatch<React.SetStateAction<boolean>>;
