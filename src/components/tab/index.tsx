@@ -3,8 +3,10 @@ import React, { useState } from 'react';
 import TabList from './TabList';
 import TabsComponent from './tabsDetail';
 
+import Pokemon from '../../models/Pokemon';
+
 interface TabDescriptionProps {
-  pokemon: any; // Update with the appropriate type
+  pokemon: Pokemon; // Update with the appropriate type
 }
 
 const TabDetailDescription = ({ pokemon }: TabDescriptionProps) => {

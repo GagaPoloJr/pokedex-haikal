@@ -2,7 +2,7 @@ import React from 'react';
 import poke from '../img/poke.png';
 import welcome from '../img/welcome.png';
 import { Link } from 'react-router-dom';
-import { Poke, Header, Button } from '../style-components/pages/welcome';
+import { Poke, Header, Button } from '../style-components/pages/welcome.style';
 
 const Welcome = () => {
   return (
@@ -15,7 +15,7 @@ const Welcome = () => {
           <img className="mt-32 mb-20" src={welcome} alt="" />
           <Link to="/pokemon">
             <Button className=" w-full flex-auto content-center  rounded-lg  py-5">
-              <p class="text-center tracking-wider">Find Pokemon</p>
+              <p className="text-center tracking-wider">Find Pokemon</p>
             </Button>
           </Link>
         </div>

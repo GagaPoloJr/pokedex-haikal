@@ -3,6 +3,5 @@ interface Moves {
     name: string;
   };
 }
-[];
 
 export default Moves;

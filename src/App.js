@@ -1,12 +1,12 @@
 import React from 'react';
 import './App.css';
 import { Route, Switch } from 'react-router-dom';
-import Main from './pages/main';
-import DetailPokemon from './pages/detailPokemon';
 import Welcome from './pages/Welcome';
-import { PokemonProvider } from './pages/components/PokemonContext';
-import MypokemonList from './pages/myPokemonList';
-import { MobileContainer, Container } from './style-components/layouts';
+import MypokemonList from './pages/MyPokemonList';
+import { MobileContainer, Container } from './style-components/layouts/index.style';
+import PokemonList from './pages/PokemonList';
+import DetailPokemon from './pages/DetailPokemon';
+import { PokemonState } from './context/PokemonState';
 
 const App = () => {
   return (
@@ -14,12 +14,12 @@ const App = () => {
       <Container>
         <MobileContainer>
           <Switch>
-            <PokemonProvider>
+            <PokemonState>
               <Route exact path="/my-pokemon">
                 <MypokemonList />
               </Route>
               <Route exact path="/pokemon">
-                <Main />
+                <PokemonList />
               </Route>
               <Route exact path="/detail-pokemon/:name">
                 <DetailPokemon />
@@ -27,7 +27,7 @@ const App = () => {
               <Route exact path="/">
                 <Welcome />
               </Route>
-            </PokemonProvider>
+            </PokemonState>
           </Switch>
         </MobileContainer>
       </Container>

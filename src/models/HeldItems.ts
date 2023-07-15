@@ -3,5 +3,4 @@ interface HeldItems {
     name: string;
   };
 }
-[];
 export default HeldItems;

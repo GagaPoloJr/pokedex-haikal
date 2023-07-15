@@ -1,12 +1,18 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import Pokeball from '../../img/pokeball.png';
-import { Card, Title, TextCatch, ImgPoke, NickName } from '../../style-components/cards/pokemon';
+import {
+  Card,
+  Title,
+  TextCatch,
+  ImgPoke,
+  NickName,
+} from '../../style-components/cards/pokemon.style';
 
 import { SPRITE_IMG_URL } from '../../configs/config';
 import MyPokemonProps from '../../models/MyPokemon';
 
-const MyPokemonCard = ({ pokemon, onRemove }: MyPokemonProps) => {
+const MyPokemonCards = ({ pokemon, onRemove }: MyPokemonProps) => {
   const handleClick = () => {
     onRemove(pokemon.unique);
   };
@@ -35,4 +41,4 @@ const MyPokemonCard = ({ pokemon, onRemove }: MyPokemonProps) => {
   );
 };
 
-export default MyPokemonCard;
+export default MyPokemonCards;

@@ -3,6 +3,5 @@ interface Abilities {
     name: string;
   };
 }
-[];
 
 export default Abilities;
