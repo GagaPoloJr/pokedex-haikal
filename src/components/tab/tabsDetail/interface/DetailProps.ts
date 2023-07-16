@@ -1,4 +1,4 @@
-import Pokemon from '../../../../models/Pokemon';
+import Pokemon from '@/models/Pokemon';
 
 interface DetailProps {
   indexTab: number;

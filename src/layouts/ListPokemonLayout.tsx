@@ -1,14 +1,14 @@
 import { useQuery } from '@apollo/client';
 import React, { useState } from 'react';
-import { GET_POKEMONS } from '../graphql/query';
-import ListPokemonCards from '../components/cards/ListPokemonCards';
-import Pokemon from '../models/Pokemon';
-import Loader from '../components/loader/MainLoader';
+import { GET_POKEMONS } from '@/graphql/query';
+import ListPokemonCards from '@/components/cards/ListPokemonCards';
+import Pokemon from '@/models/Pokemon';
+import Loader from '@/components/loader/MainLoader';
 import {
   CardContainer,
   Pagination,
   Arrow,
-} from '../style-components/layouts/listPokemonLayout.style';
+} from '@/style-components/layouts/listPokemonLayout.style';
 
 const ListPokemonLayout = () => {
   const [limit] = useState<number>(10);

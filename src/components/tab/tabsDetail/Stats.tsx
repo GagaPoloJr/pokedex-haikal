@@ -1,6 +1,6 @@
 import React from 'react';
 
-import Stats from '../../../models/Stats';
+import Stats from '@/models/Stats';
 import DetailProps from './interface/DetailProps';
 
 const baseStateColor = (baseStat: number, type: string) => {

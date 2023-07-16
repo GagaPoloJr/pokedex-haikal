@@ -2,7 +2,7 @@ import React, { useEffect, useReducer } from 'react';
 import PokemonReducer from './PokemonReducer';
 import { CREATE_FAV_POKEMON, DELETE_FAV_POKEMON, LOAD_FAV_POKEMONS } from './PokemonTypes';
 import { FavContext } from './FavContext';
-import Pokemon from '../models/Pokemon';
+import Pokemon from '@/models/Pokemon';
 
 /**
  *

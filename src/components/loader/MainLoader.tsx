@@ -1,5 +1,5 @@
 import React from 'react';
-import { Pokeball } from '../../helpers/images';
+import { Pokeball } from '@/helpers/images';
 const Loader = () => {
   return (
     <>

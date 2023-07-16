@@ -3,7 +3,7 @@ import TabsDetailStats from './Stats';
 import TabsDetailMoves from './Moves';
 import TabsDetailAbilities from './Abilities';
 import TabsDetailAbout from './About';
-import Pokemon from '../../../models/Pokemon';
+import Pokemon from '@/models/Pokemon';
 
 interface TabsComponentProps {
   openTab: number;

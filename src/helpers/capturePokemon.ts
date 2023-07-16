@@ -1,5 +1,5 @@
 import uuid from 'react-native-uuid';
-import Pokemon from '../models/Pokemon';
+import Pokemon from '@/models/Pokemon';
 
 type capturePokemonProps = {
   pokemon: Pokemon;

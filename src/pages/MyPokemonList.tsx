@@ -1,9 +1,9 @@
 import swal from '@sweetalert/with-react';
 import React, { useContext } from 'react';
-import Hero from '../layouts/header';
-import MyPokemonLayout from '../layouts/MyPokemonLayout';
-import { FavContext } from '../context/FavContext';
-import BackButton from '../components/buttons/Back';
+import Hero from '@/layouts/header';
+import MyPokemonLayout from '@/layouts/MyPokemonLayout';
+import { FavContext } from '@/context/FavContext';
+import BackButton from '@/components/buttons/Back';
 
 const MypokemonList = () => {
   const { pokemons: myPokemon, deleteFavPokemon } = useContext(FavContext);

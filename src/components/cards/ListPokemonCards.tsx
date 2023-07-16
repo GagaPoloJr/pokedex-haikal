@@ -2,8 +2,8 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 // 165px card
-import { Card, Title, ImgPoke } from '../../style-components/cards/pokemon.style';
-import { SPRITE_IMG_URL } from '../../configs/config';
+import { Card, Title, ImgPoke } from '@/style-components/cards/pokemon.style';
+import { SPRITE_IMG_URL } from '@/configs/config';
 
 interface ListPokemonCardsProps {
   name: string;

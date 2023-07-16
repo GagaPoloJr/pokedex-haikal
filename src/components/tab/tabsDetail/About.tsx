@@ -6,8 +6,8 @@ import {
   HeadingAbout,
   HeadingDesc,
   SubHeading,
-} from '../../../style-components/tabs/index.style';
-import HeldItems from '../../../models/HeldItems';
+} from '@/style-components/tabs/index.style';
+import HeldItems from '@/models/HeldItems';
 
 const TabsDetailAbout = ({ indexTab, pokemon }: DetailProps) => {
   const renderHeldItems = () => {

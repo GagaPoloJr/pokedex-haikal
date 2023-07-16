@@ -1,5 +1,5 @@
 import React from 'react';
-import Abilities from '../../../models/Abilities';
+import Abilities from '@/models/Abilities';
 import DetailProps from './interface/DetailProps';
 
 const TabsDetailAbilities = ({ indexTab, pokemon }: DetailProps) => {

@@ -1,9 +1,9 @@
 import React, { useContext, useState } from 'react';
 import { useQuery } from '@apollo/client';
 import swal from '@sweetalert/with-react';
-import { PokemonColorType } from '../helpers/colorType';
+import { PokemonColorType } from '@/helpers/colorType';
 
-import { Pokeball } from '../helpers/images';
+import { Pokeball } from '@/helpers/images';
 import {
   BgColor,
   Title,
@@ -12,17 +12,17 @@ import {
   TypeBg,
   ImgPoke,
   Description,
-} from '../style-components/pages/detailPokemon.style';
-import Loader from '../components/loader/MainLoader';
-import TabDetail from '../components/tab';
-import FavouritePokemons from '../components/Favourite';
+} from '@/style-components/pages/detailPokemon.style';
+import Loader from '@/components/loader/MainLoader';
+import TabDetail from '@/components/tab';
+import FavouritePokemons from '@/components/Favourite';
 
-import { GET_POKEMON_DETAIL } from '../graphql/query';
-import { FavContext } from '../context/FavContext';
-import { SPRITE_IMG_URL } from '../configs/config';
-import { capturePokemon } from '../helpers/capturePokemon';
-import Pokemon from '../models/Pokemon';
-import BackButton from '../components/buttons/Back';
+import { GET_POKEMON_DETAIL } from '@/graphql/query';
+import { FavContext } from '@/context/FavContext';
+import { SPRITE_IMG_URL } from '@/configs/config';
+import { capturePokemon } from '@/helpers/capturePokemon';
+import Pokemon from '@/models/Pokemon';
+import BackButton from '@/components/buttons/Back';
 
 const DetailPokemonLayout = ({ params }: any) => {
   const { data, loading, error } = useQuery(GET_POKEMON_DETAIL, {

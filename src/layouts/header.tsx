@@ -1,5 +1,5 @@
 import React from 'react';
-import { Heading, Desc } from '../style-components/header/index.style';
+import { Heading, Desc } from '@/style-components/header/index.style';
 
 interface HeroProps {
   title: string;

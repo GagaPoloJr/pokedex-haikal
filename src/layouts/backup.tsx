@@ -1,10 +1,10 @@
 import { useQuery } from '@apollo/client';
 import React, { useEffect, useRef, useState } from 'react';
-import { GET_POKEMONS } from '../graphql/query';
-import ListPokemonCards from '../components/cards/ListPokemonCards';
-import Pokemon from '../models/Pokemon';
-import Loader from '../components/loader/MainLoader';
-import { CardContainer } from '../style-components/layouts/listPokemonLayout.style';
+import { GET_POKEMONS } from '@/graphql/query';
+import ListPokemonCards from '@/components/cards/ListPokemonCards';
+import Pokemon from '@/models/Pokemon';
+import Loader from '@/components/loader/MainLoader';
+import { CardContainer } from '@/style-components/layouts/listPokemonLayout.style';
 
 const ListPokemonLayout = () => {
   const [limit] = useState<number>(10);

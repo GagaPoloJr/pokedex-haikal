@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Poke, Header, Button } from '../style-components/pages/welcome.style';
-import { PokeOrnament, WelcomeOrnament } from '../helpers/images';
+import { Poke, Header, Button } from '@/style-components/pages/welcome.style';
+import { PokeOrnament, WelcomeOrnament } from '@/helpers/images';
 
 const Welcome = () => {
   return (

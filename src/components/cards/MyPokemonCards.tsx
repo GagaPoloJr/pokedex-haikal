@@ -1,16 +1,10 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import {
-  Card,
-  Title,
-  TextCatch,
-  ImgPoke,
-  NickName,
-} from '../../style-components/cards/pokemon.style';
+import { Card, Title, TextCatch, ImgPoke, NickName } from '@/style-components/cards/pokemon.style';
 
-import { SPRITE_IMG_URL } from '../../configs/config';
-import MyPokemonProps from '../../models/MyPokemon';
-import { Pokeball } from '../../helpers/images';
+import { SPRITE_IMG_URL } from '@/configs/config';
+import MyPokemonProps from '@/models/MyPokemon';
+import { Pokeball } from '@/helpers/images';
 
 const MyPokemonCards = ({ pokemon, onRemove }: MyPokemonProps) => {
   const handleClick = () => {

@@ -1,12 +1,12 @@
 import React from 'react';
 import './App.css';
 import { Route, Switch } from 'react-router-dom';
-import Welcome from './pages/Welcome';
-import MypokemonList from './pages/MyPokemonList';
-import { MobileContainer, Container } from './style-components/layouts/index.style';
-import PokemonList from './pages/PokemonList';
-import DetailPokemon from './pages/DetailPokemon';
-import { PokemonState } from './context/PokemonState';
+import Welcome from '@/pages/Welcome';
+import MypokemonList from '@/pages/MyPokemonList';
+import { MobileContainer, Container } from '@/style-components/layouts/index.style';
+import PokemonList from '@/pages/PokemonList';
+import DetailPokemon from '@/pages/DetailPokemon';
+import { PokemonState } from '@/context/PokemonState';
 
 const App = () => {
   return (

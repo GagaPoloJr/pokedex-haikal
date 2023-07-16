@@ -5,7 +5,7 @@ import { BrowserRouter } from 'react-router-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import client from './client/client';
+import client from '@/client/client';
 import { ApolloProvider } from '@apollo/client';
 
 ReactDOM.render(

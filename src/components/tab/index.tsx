@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 import TabList from './TabList';
 import TabsComponent from './tabsDetail';
 
-import Pokemon from '../../models/Pokemon';
+import Pokemon from '@/models/Pokemon';
 
 interface TabDescriptionProps {
   pokemon: Pokemon;

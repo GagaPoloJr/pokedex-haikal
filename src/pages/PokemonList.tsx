@@ -1,8 +1,8 @@
 import React from 'react';
-import Hero from '../layouts/header';
-import ListPokemonLayout from '../layouts/ListPokemonLayout';
-import FavouritePokemons from '../components/Favourite';
-import BackButton from '../components/buttons/Back';
+import Hero from '@/layouts/header';
+import ListPokemonLayout from '@/layouts/ListPokemonLayout';
+import FavouritePokemons from '@/components/Favourite';
+import BackButton from '@/components/buttons/Back';
 
 const PokemonList = () => {
   const header = {

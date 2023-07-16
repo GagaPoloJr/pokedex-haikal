@@ -1,4 +1,4 @@
-import Pokemon from '../models/Pokemon';
+import Pokemon from '@/models/Pokemon';
 import { CREATE_FAV_POKEMON, DELETE_FAV_POKEMON } from './PokemonTypes';
 
 interface PokemonState {
